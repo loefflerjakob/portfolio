@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  css: ['@/assets/css/roboto.css'],
+  css: ['@/assets/css/inter.css'],
   modules: [
     [
       '@storyblok/nuxt',
