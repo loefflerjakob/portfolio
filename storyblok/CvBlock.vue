@@ -15,4 +15,5 @@ defineProps({ blok: Object })
 </script>
 
 <style scoped>
+
 </style>

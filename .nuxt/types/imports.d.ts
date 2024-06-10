@@ -31,6 +31,7 @@ declare global {
   const getAppManifest: typeof import('../../node_modules/nuxt/dist/app/composables/manifest')['getAppManifest']
   const getCurrentInstance: typeof import('../../node_modules/vue')['getCurrentInstance']
   const getCurrentScope: typeof import('../../node_modules/vue')['getCurrentScope']
+  const getOpimizedImgae: typeof import('../../composables/get-optimized-image')['getOpimizedImgae']
   const getRouteRules: typeof import('../../node_modules/nuxt/dist/app/composables/manifest')['getRouteRules']
   const getStoryblokVersion: typeof import('../../composables/get-storyblok-versions')['getStoryblokVersion']
   const h: typeof import('../../node_modules/vue')['h']
@@ -188,6 +189,7 @@ declare module 'vue' {
     readonly getAppManifest: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/manifest')['getAppManifest']>
     readonly getCurrentInstance: UnwrapRef<typeof import('../../node_modules/vue')['getCurrentInstance']>
     readonly getCurrentScope: UnwrapRef<typeof import('../../node_modules/vue')['getCurrentScope']>
+    readonly getOpimizedImgae: UnwrapRef<typeof import('../../composables/get-optimized-image')['getOpimizedImgae']>
     readonly getRouteRules: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/manifest')['getRouteRules']>
     readonly getStoryblokVersion: UnwrapRef<typeof import('../../composables/get-storyblok-versions')['getStoryblokVersion']>
     readonly h: UnwrapRef<typeof import('../../node_modules/vue')['h']>
@@ -338,6 +340,7 @@ declare module '@vue/runtime-core' {
     readonly getAppManifest: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/manifest')['getAppManifest']>
     readonly getCurrentInstance: UnwrapRef<typeof import('../../node_modules/vue')['getCurrentInstance']>
     readonly getCurrentScope: UnwrapRef<typeof import('../../node_modules/vue')['getCurrentScope']>
+    readonly getOpimizedImgae: UnwrapRef<typeof import('../../composables/get-optimized-image')['getOpimizedImgae']>
     readonly getRouteRules: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/manifest')['getRouteRules']>
     readonly getStoryblokVersion: UnwrapRef<typeof import('../../composables/get-storyblok-versions')['getStoryblokVersion']>
     readonly h: UnwrapRef<typeof import('../../node_modules/vue')['h']>

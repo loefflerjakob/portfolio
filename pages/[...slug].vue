@@ -4,7 +4,8 @@
     :blok="story.content"
     :story-name="story.name"
   />
-</template>
+  
+  </template>
 
 <script setup>
 let { slug } = useRoute().params;
